@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 import numpy as np
 import pickle
-
+from collections.abc import Mapping
 diabetes_model = pickle.load(open('models/diabetes.pkl', 'rb'))
 cancer_model = pickle.load(open('models/cancer.pkl', 'rb'))
 heart_model = pickle.load(open('models/heart.pkl', 'rb'))
