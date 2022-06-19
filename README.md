@@ -10,11 +10,11 @@ This webapp was developed using Flask Web Framework and was deployed on Heroku s
 
 - Diabetes
 - Breast Cancer
-<!-- - Heart Disease
+- Heart Disease
 - Kidney Disease
 - Liver Disease
 - Malaria
-- Pneumonia -->
+- Pneumonia 
 
 ## Models with their Accuracy of Prediction
 
